@@ -57,23 +57,12 @@ pixi run jupyter notebook notebooks/stardist_napari_3d.ipynb
 
 Or open them in VS Code with the Jupyter extension.
 
-## Workshop Content
-
-- **`notebooks/cellpose_napari_3d.ipynb`**: Step-by-step tutorial on loading 3D images with BioIO, running Cellpose segmentation, and visualizing results in Napari.
-- **`data/Lund.tif`**: Sample 3D microscopy dataset (downloaded via the `download-data` task).
-
-## Visualizing Data
-
-To open the dataset directly in Napari:
-```bash
-pixi run napari data/Lund.tif
-```
 
 ## Environment Details
 
 - **Python**: 3.11 (required for StarDist compatibility)
 - **Key packages**: napari, bioio, cellpose, stardist
-- **Platforms**: Windows, Linux, macOS (Intel & Apple Silicon)
+- **Platforms**: Windows, Linux
 
 ## License
 
